@@ -49,11 +49,15 @@ body {
     font-weight: 500;
     color: hsl(0, 0%, 7%);
 }
-.content h1 {
+.title {
     font-size: 2rem;
     font-weight: 900;
     margin: 1.5rem 0;
     color: hsl(0, 0%, 7%);
+}
+.title:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 .content p {
     font-size: 1.4rem;
